@@ -57,7 +57,7 @@ nav ul {
     border: none;
     height: 64px;
     width: 150px;
-    margin: 50px o 0 230px;
+    margin: 50px 0 0 230px;
 
 
 }
@@ -224,7 +224,6 @@ main section {
 
 .resume-download-cv {
     margin-top: 50px;
-
 }
 
 .btn-primary3 {
@@ -236,6 +235,42 @@ main section {
     font-size: 20px;
     border: none;
     width: 200px;
-    margin: 50px o 0 230px;
+    margin: 50px 0 0 230px;
     height: 64px;
+}
+
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    padding: 10px 30px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    border: none;
+}
+
+.btn-primary4 {
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    height: 64px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 39px;
 }
